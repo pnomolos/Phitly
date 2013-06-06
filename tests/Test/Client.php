@@ -25,7 +25,7 @@ class Test_Client extends PHPUnit_Framework_TestCase
 	 * @group Single Link
 	 */
 	public function testSingleLinkReturnedShortUrl($url) {
-		$this->assertEquals('http://bit.ly/11FtX5w', $url->short_url);
+		$this->assertEquals('http://bit.ly/10T99Mt', $url->short_url);
 	}
 	
 	/**
@@ -33,7 +33,7 @@ class Test_Client extends PHPUnit_Framework_TestCase
 	 * @group Single Link
 	 */
 	public function testSingleLinkReturnedJmpUrl($url) {
-		$this->assertEquals('http://j.mp/11FtX5w', $url->jmp_url());
+		$this->assertEquals('http://j.mp/10T99Mt', $url->jmp_url());
 	}
 	
 	/**
@@ -57,8 +57,8 @@ class Test_Client extends PHPUnit_Framework_TestCase
 	 * @group Multiple Links
 	 */
 	public function testMultipleLinksReturnedShortUrlsInOrder($urls) {
-		$this->assertEquals('http://bit.ly/11FtX5w', $urls[0]->short_url);
-		$this->assertEquals('http://bit.ly/Zu2Pdg',  $urls[1]->short_url);
+		$this->assertEquals('http://bit.ly/10T99Mt', $urls[0]->short_url);
+		$this->assertEquals('http://bit.ly/10T97nG',  $urls[1]->short_url);
 	}
 	
 	/**
