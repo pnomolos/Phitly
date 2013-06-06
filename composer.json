@@ -1,11 +1,11 @@
 {
-    "name": "pnomolos/Phitly",
+    "name": "pnomolos/phitly",
     "version": "0.1.0",
     "type": "library",
     "description": "Bit.ly v3 API wrapper",
     "keywords": ["api", "wrapper", "http", "bitly", "phitly"],
     "homepage": "https://github.com/pnomolos/Phitly",
-    "license" : "MIT",
+    "license" : "BSD",
     "authors" : [
         {
             "name": "Philip Schalm",
