@@ -19,4 +19,4 @@ As this library is still under development significant changes may still happen.
 
 ## Copyright
 
-Copyright &copy; 2011 [Philip Schalm](http://twitter.com/pnomolos)
+Copyright &copy; 2013 [Philip Schalm](http://twitter.com/pnomolos)
