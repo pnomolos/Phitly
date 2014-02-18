@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.3.2",
         "league/oauth2-client": "dev-master",
-        "guzzle/guzzle": "v3.6.*"
+        "guzzle/guzzle": "3.8.*"
     },
     "autoload": {
         "psr-0": {
